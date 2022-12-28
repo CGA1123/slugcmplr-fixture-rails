@@ -5,7 +5,7 @@
     { "url": "heroku/nodejs" },
     { "url": "heroku/ruby" }
   ],
-  "addons": ["heroku-postgresql:hobby-dev"],
+  "addons": ["heroku-postgresql:mini"],
   "stack": "heroku-20",
   "env": {
     "RANDOM_SECRET": { "generator": "secret" },
