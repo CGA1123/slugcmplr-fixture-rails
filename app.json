@@ -5,7 +5,7 @@
     { "url": "heroku/ruby" }
   ],
   "addons": ["heroku-postgresql:mini"],
-  "stack": "heroku-22",
+  "stack": "heroku-20",
   "env": {
     "HEROKU_DEBUG_RAILS_RUNNER": { "value": "1" },
     "RANDOM_SECRET": { "generator": "secret" },
