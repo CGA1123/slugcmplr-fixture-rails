@@ -4,7 +4,7 @@
     { "url": "https://github.com/CGA1123/heroku-buildpack-foo" },
     { "url": "heroku/ruby" }
   ],
-  "addons": ["heroku-postgresql:mini"],
+  "addons": ["heroku-postgresql:essential-0"],
   "stack": "heroku-20",
   "env": {
     "HEROKU_DEBUG_RAILS_RUNNER": { "value": "1" },
