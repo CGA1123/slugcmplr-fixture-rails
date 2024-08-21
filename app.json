@@ -5,7 +5,7 @@
     { "url": "heroku/ruby" }
   ],
   "addons": ["heroku-postgresql:essential-0"],
-  "stack": "heroku-20",
+  "stack": "heroku-24",
   "env": {
     "HEROKU_DEBUG_RAILS_RUNNER": { "value": "1" },
     "RANDOM_SECRET": { "generator": "secret" },
